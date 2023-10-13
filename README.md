@@ -55,8 +55,5 @@ else:
   print("You're not David?!")
 ### will print something for David, something for Emily, and something for everything else
 ```
-> ==
-> =!
-> <=
-> >=
-> <>
+> | == | =! | <= | >= | <> |
+> |----|----|----|----|----|

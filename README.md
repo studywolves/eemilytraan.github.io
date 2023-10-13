@@ -28,7 +28,7 @@ print("You have a", "\033[31m" + "warning" + "\033[0m", "code.")
 print("You have a", "\033[31m", "warning", "\033[0m", "code.")
 ### You have a  warning  code. with a warning red but with extra spaces
 ```
-| Color   | Value |
+| **Color**   | **Value** |
 |---------|-------|
 | Default | 0     |
 | Black   | 30    |

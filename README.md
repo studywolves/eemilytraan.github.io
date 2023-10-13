@@ -42,3 +42,21 @@ print("You have a", "\033[31m", "warning", "\033[0m", "code.")
 | Purple  | 35    |
 | Cyan    | 36    |
 | White   | 37    |
+
+### If-Else Statements
+```python
+myName = input("What's your name?: ")
+if myName == "David":
+  print("Hello David!")
+  print("You're the baldest person ever.")  
+elif myName == "Emily":
+  print("Hi Emily!")
+else:
+  print("You're not David?!")
+### will print something for David, something for Emily, and something for everything else
+```
+> ==
+> =!
+> <=
+> >=
+> <>

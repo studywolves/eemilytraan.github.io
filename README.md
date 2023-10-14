@@ -56,3 +56,4 @@ else:
 ```
 | == | =! | <= | >= | <> |
 |----|----|----|----|----|
+| equal to | not equal to | less than or equal | greather than or equal | less than / greater than |

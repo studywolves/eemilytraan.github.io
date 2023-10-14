@@ -23,6 +23,7 @@ print(food + " with " + badFood + “ ” + plant + " on a bed of " + item)
 
 ### Print in Color
 > # “\033[m”
+
 ```python
 print("You have a", "\033[31m" + "warning" + "\033[0m", "code.")
 ### You have a warning code. with warming red

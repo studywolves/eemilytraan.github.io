@@ -1,4 +1,4 @@
-theme: Midnight
+theme: midnight
 
 # emilyytrann.github.io
 

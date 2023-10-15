@@ -1,6 +1,6 @@
 # emilyytrann.github.io
 
-# Python Notes
+# Coding Made Easy: Python
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Made with Github")
 
 ### Printing

@@ -1,5 +1,3 @@
-theme: midnight
-
 # emilyytrann.github.io
 
 # Coding Made Easy: Python

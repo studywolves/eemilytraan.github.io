@@ -1,4 +1,4 @@
-# emilyytrann.github.io
+# eemilytraan.github.io
 
 # Coding Made Easy: Python
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Made with Github")

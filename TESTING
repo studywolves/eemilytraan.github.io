@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--this says that everything is in html-->
+<html>
+<!-- this does too!-->
+
+
+    <head>
+    <!-- this is where CSS and Javascript files can be uploaded-->
+        <meta charset="utf-8">
+        <!-- utf-8 is a unicode for websites to translate into bites -> dictionary -->
+        <meta name="viewport", content="width=device-width, initial-scale=1">
+        <!-- important for responsive websites (can display properly on every device)-->
+        <title> Emily Tran </title>
+    </head>
+
+
+    <body>
+    <!-- this is where the bulk of stuff goes-->
+        <h1> Emily Tran </h1>
+        <h2> Resume </h2>
+        <a href="https://www.lipsum.com/feed/html", target="_blank"> References </a>
+        <!-- add urls = universal resource locator, href = hypertext reference, target blank makes it open in a new tab -->
+        <hr> <!-- add a horizonal line across the page-->
+
+        <p>
+            This is my website, and I am <b> excited to finish it</b>.  
+
+            <img src="https://png.pngtree.com/png-clipart/20190918/ourmid/pngtree-pink-watercolor-brushes-171474-png-image_1733978.jpg" border="10">
+            <img src="newImage.png"> 
+            <!-- add images here, src = source IMAGE address orrrr you can download the image and reference the file name-->
+        </p>
+
+            <br> <!-- line breaks only between <p> -->
+
+        <p> 
+            <u>Lorem ipsum</u> dolor sit amet, consectetur adipiscing elit. In placerat lorem ac faucibus pulvinar. Praesent pharetra sollicitudin consectetur. Vestibulum a turpis eget mi volutpat lacinia. Vivamus eu vehicula dui, sed vestibulum nulla. Donec et sem sit amet nisi faucibus porttitor ut ac ex. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque hendrerit tristique lectus, eget scelerisque neque porta eu. Curabitur dictum ex velit, sed pulvinar eros sagittis vel. Integer mattis quis sapien id malesuada. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+        </p>
+
+        <p>
+            <i>Cras justo elit,</i> gravida eget laoreet et, ultrices et magna. Cras dictum, augue quis finibus porta, lacus mauris egestas lacus, eget ullamcorper tellus ante semper erat. Duis porta vitae nisl et sagittis. Sed vulputate sed justo sit amet lobortis. Maecenas in lobortis turpis, quis cursus ipsum. Nullam ac euismod tellus. Quisque auctor diam nec est efficitur, non fringilla libero dictum. Donec at sagittis tellus. Fusce dui diam, viverra euismod urna eu, accumsan finibus quam. Nunc quis scelerisque leo, ac blandit leo. Nunc porttitor vitae tortor a sagittis. Fusce at pretium augue, vitae pharetra tellus. Vestibulum posuere justo vitae faucibus finibus. Cras sit amet neque feugiat, congue neque eu, convallis ipsum. Duis sodales in ex et finibus. Vestibulum at condimentum erat.
+        </p>
+        
+        <br> 
+
+
+        <ul> <!-- unordered list "bullets"-->
+            <li> STEM Club <!-- nesting parent element-->
+                <ul> <!-- nesting child element -->
+                    <li> Mission: safe environment </li>
+                </ul>
+            </li> 
+            <li> Spanish Club </li>
+            <li> Kiwanis Key Club </li>
+        </ul>
+
+        <ol> <!-- ordered list "numbered"-->
+            <li> FAVORITE </li>
+        </ol>
+
+
+        <br><br><hr>
+
+        
+        <h1> Tables </h1>
+        <table border="3", cellpadding="10", cellspacing="0">
+            <tr> <!-- table row -->
+                <!-- table headers -->
+                <td> </td>
+                <th> Club </th>
+                <th> Position </th>
+                <th colspan="2"> Commitment </th>
+                <!-- makes the row take up 2 cells-->
+            </tr>
+            <tr> 
+                <!-- table data -->
+                <td rowspan="2"> Officer Positions </td>
+                <td> STEM Club </td>
+                <td> Co-Founder and President </td>
+                <td> 2023-2024 </td>
+                <td> 1 year </td>
+            </tr>
+            <tr>
+                <td> Spanish Club </td>
+                <td> President </td>
+                <td> 2022-2024 </td>
+                <td> 2 years </td>
+            </tr>
+        </table>
+
+
+    </body>
+</html>
+

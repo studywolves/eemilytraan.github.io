@@ -3,7 +3,6 @@
     margin-bottom: 10px;
     margin-right: 0px;
     margin-left: 0px;
-    color: #000000;
     font-family: "Didot", "Georgia", "Helvetica Neue", sans-serif;
     box-sizing: border-box;
   }
@@ -43,13 +42,20 @@
   }
   
   .thin-highlight-pink {
-    background: linear-gradient(180deg,rgba(255,255,255, 0) 80%, #fcd5ce 80%);
+    background: linear-gradient(180deg,rgba(255,255,255, 0) 80%, #f9dcc4 80%);
   }
   
   a {
+    /* default is text-decoration: underline */
     text-decoration: none;
+    color: black;
   }
-  
+
+  a:hover, a:focus {
+    color: #f07167;
+  }
+
+
   .name {
     font-size: 500%;
     margin-left: 5%;
